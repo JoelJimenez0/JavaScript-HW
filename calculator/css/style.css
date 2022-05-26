@@ -9,6 +9,7 @@
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    margin: 20px;
 }
 .buttons{
     display: grid;
@@ -16,11 +17,11 @@
     border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.buttons > div{
+.buttons > button{
     border-top: 1px solid #999;
     border-right: 1px solid #999;
 }
-.button{
+button{
     border: 0.5px solid #999;
     line-height: 100px;
     text-align: center;
@@ -29,10 +30,10 @@
 
 }
 #equal{
-    background-color: blue;
-    color: white;
+    color: black;
 }
-.button:hover{
+
+button:hover{
     background-color: black;
     color: white;
     transition: 0.5s ease-in-out;
